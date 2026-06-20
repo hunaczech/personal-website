@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Newsreader, Inter, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
 import "../globals.css";
 
@@ -86,6 +87,7 @@ export default async function LangLayout({
     <html lang={locale} className={`${newsreader.variable} ${inter.variable} ${geistMono.variable}`}>
       <body>
         {children}
+        <Analytics />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
