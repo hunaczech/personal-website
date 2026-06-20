@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  /* Heritage Warmth palette */
+  --color-surface: #f5f2e9;
+  --color-surface-2: #e8e4d8;
+  --color-fg: #2d2926;
+  --color-fg-2: #5e5954;
+  --color-fg-muted: #8c8782;
+  --color-border-subtle: #dcd8cb;
+  --color-accent: #7d6b3d;
+  --color-accent-deep: #4a3f24;
+  --color-accent-soft: #c9b98a;
+
+  /* Type — bound to next/font CSS variables */
+  --font-heading: var(--font-newsreader), Georgia, serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-fg);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Mono eyebrow/label helper */
+.eyebrow {
+  font-family: var(--font-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
