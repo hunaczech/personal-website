@@ -3,15 +3,1064 @@
   "children": [
     {
       "type": "frame",
-      "id": "bi8Au",
-      "x": 0,
+      "id": "Zog6D",
+      "x": 920,
       "y": 0,
-      "name": "Frame",
+      "name": "Personal Site",
       "clip": true,
-      "width": 800,
-      "height": 600,
-      "fill": "#FFFFFF",
-      "layout": "none"
+      "width": 1440,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "mokMd",
+          "name": "Header",
+          "width": "fill_container",
+          "padding": [
+            28,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "I0nbe",
+              "name": "Wordmark",
+              "fill": "$fg-primary",
+              "content": "Lukáš Huňka",
+              "fontFamily": "$font-heading",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "cqscM",
+              "name": "Nav",
+              "gap": 36,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e3QpMf",
+                  "name": "About",
+                  "fill": "$fg-secondary",
+                  "content": "About",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "FOc4t",
+                  "name": "Projects",
+                  "fill": "$fg-secondary",
+                  "content": "Projects",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "z1SQTp",
+                  "name": "Contact",
+                  "fill": "$fg-secondary",
+                  "content": "Contact",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "I8M4ox",
+                  "name": "Lang Toggle",
+                  "fill": "$surface-secondary",
+                  "cornerRadius": 9999,
+                  "gap": 6,
+                  "padding": [
+                    7,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IcvLq",
+                      "name": "EN",
+                      "fill": "$accent-primary",
+                      "content": "EN",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XkDp4",
+                      "name": "Sep",
+                      "fill": "$fg-muted",
+                      "content": "/",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PdWpX",
+                      "name": "CZ",
+                      "fill": "$fg-muted",
+                      "content": "CZ",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RLaCt",
+          "name": "Hero",
+          "width": "fill_container",
+          "gap": 64,
+          "padding": [
+            72,
+            80,
+            96,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "LDkcK",
+              "name": "Hero Left",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l49DN1",
+                  "name": "Eyebrow",
+                  "fill": "$accent-primary",
+                  "content": "FOUNDER · BUILDER · PRAGUE",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "XXJiU",
+                  "name": "Headline",
+                  "fill": "$fg-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Hi, I'm Lukáš. I help European brands sell everywhere.",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 60,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "C54n44",
+                  "name": "Subhead",
+                  "fill": "$fg-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "I build companies and tools at the messy intersection of e-commerce, marketplaces and automation — most of all Omnicado, the platform connecting sellers to 800+ channels across Europe.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "$font-body",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "XLRSo",
+                  "name": "CTAs",
+                  "gap": 14,
+                  "padding": [
+                    8,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DIaKj",
+                      "name": "CTA Primary",
+                      "fill": "$accent-primary",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        14,
+                        26
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eh4Uz",
+                          "name": "Label",
+                          "fill": "$fg-primary",
+                          "content": "Get in touch",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F8OFB5",
+                      "name": "CTA Secondary",
+                      "cornerRadius": 9999,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        14,
+                        26
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oHnOv",
+                          "name": "Label",
+                          "fill": "$fg-primary",
+                          "content": "See my work",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 12,
+              "id": "qZ4GD",
+              "name": "Photo",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "personal-photo.jpeg",
+                "mode": "fill"
+              },
+              "width": 420,
+              "height": 520,
+              "effect": [
+                {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#0000001f",
+                  "offset": {
+                    "x": 0,
+                    "y": 18
+                  },
+                  "blur": 48
+                },
+                {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#0000000a",
+                  "offset": {
+                    "x": 0,
+                    "y": 2
+                  },
+                  "blur": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QbdXS",
+          "name": "About",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "gap": 72,
+          "padding": [
+            88,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "TaMzO",
+              "name": "About Left",
+              "width": 360,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jlHab",
+                  "name": "Eyebrow",
+                  "fill": "$accent-primary",
+                  "content": "ABOUT",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "GW0KT",
+                  "name": "Heading",
+                  "fill": "$fg-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A builder, not a bystander.",
+                  "lineHeight": 1.1,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 38,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "eQbX7",
+                  "name": "Stats",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    16,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Pfq9m",
+                      "name": "Omnicado founded",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qyjMD",
+                          "name": "Value",
+                          "fill": "$accent-secondary",
+                          "content": "2020",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TSLwV",
+                          "name": "Label",
+                          "fill": "$fg-muted",
+                          "content": "OMNICADO FOUNDED",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hk4NH",
+                      "name": "clients & growing",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IZT0q",
+                          "name": "Value",
+                          "fill": "$accent-secondary",
+                          "content": "250+",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "W5Unq",
+                          "name": "Label",
+                          "fill": "$fg-muted",
+                          "content": "CLIENTS & GROWING",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MqrBy",
+                      "name": "connected channels",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oC8iw",
+                          "name": "Value",
+                          "fill": "$accent-secondary",
+                          "content": "800+",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XBcbN",
+                          "name": "Label",
+                          "fill": "$fg-muted",
+                          "content": "CONNECTED CHANNELS",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JG2Hp",
+              "name": "About Right",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u8C9xC",
+                  "name": "Para",
+                  "fill": "$fg-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "I'm a builder from a small town in the Polabí lowlands — the kid who was always a step ahead and happiest taking things apart to see how they worked. I sold my first “products” to the neighbours at five, built my first online shop at sixteen, and taught myself to code mostly because I couldn't stand doing the same manual work twice.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "nCAAl",
+                  "name": "Para",
+                  "fill": "$fg-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "That one instinct — take the tedious work and turn it into a system that lets other people do what they couldn't — has run through everything since. Before Omnicado I spent seven years commentating poker on Czech Television, then learned e-commerce the hard way: as CTO at Rohlík, building Košík, and as CEO of Atoto, which I grew from a few dozen orders a month to hundreds a day before it was acquired.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "PB3F8",
+                  "name": "Para",
+                  "fill": "$fg-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "I've started things that thrived and things that fell apart, and I've learned more from the second kind. Somewhere along the way I stopped hunting for shortcuts and learned to simply do the work — to face problems instead of letting them rot. Now I'm building Omnicado to last, and chasing the freedom to keep building, back ideas worth backing, and one day do it all with a family beside me.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "w46dre",
+          "name": "Projects",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            88,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "WFHUW",
+              "name": "Projects Head",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ODZvK",
+                  "name": "Eyebrow",
+                  "fill": "$accent-primary",
+                  "content": "PROJECTS",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "G4z7pr",
+                  "name": "Heading",
+                  "fill": "$fg-primary",
+                  "content": "Things I've built and am building.",
+                  "lineHeight": 1.1,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 40,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "id": "gZLAA",
+              "type": "ref",
+              "ref": "KRiWh",
+              "name": "Omnicado",
+              "width": "fill_container",
+              "descendants": {
+                "wRCNU": {
+                  "content": "CO-FOUNDER & CEO · 2020 — NOW"
+                },
+                "ahPy7": {
+                  "content": "ACTIVE"
+                },
+                "trhrj": {
+                  "content": "Omnicado",
+                  "fontSize": 36
+                },
+                "NqOI0": {
+                  "content": "The omnichannel platform that connects online sellers to 800+ marketplaces and channels — Alza, Allegro, Kaufland, Amazon and more — handling listings, pricing, stock and orders in one place. 250+ clients, official integrator for the major CEE marketplaces.",
+                  "fontSize": 18
+                },
+                "FyvLj": {
+                  "content": "omnicado.com"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Yq94m",
+              "name": "Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "btNUA",
+                  "type": "ref",
+                  "ref": "KRiWh",
+                  "name": "Atoto",
+                  "width": "fill_container",
+                  "descendants": {
+                    "wRCNU": {
+                      "content": "CEO · 2017–2019"
+                    },
+                    "ahPy7": {
+                      "content": "ACQUIRED"
+                    },
+                    "trhrj": {
+                      "content": "Atoto.cz"
+                    },
+                    "NqOI0": {
+                      "content": "An online-grocery price comparison I took over as CEO and pivoted into a marketplace with delivery — scaling it from around 40 orders a month to 250 a day before it was acquired."
+                    },
+                    "x3NWR": {
+                      "enabled": false
+                    },
+                    "FyvLj": {
+                      "content": "atoto.cz"
+                    }
+                  }
+                },
+                {
+                  "id": "V2N4Bz",
+                  "type": "ref",
+                  "ref": "KRiWh",
+                  "name": "Sousedska Pomoc",
+                  "width": "fill_container",
+                  "descendants": {
+                    "wRCNU": {
+                      "content": "FOUNDER · 2020 · COVID RESPONSE"
+                    },
+                    "ahPy7": {
+                      "content": "NON-PROFIT"
+                    },
+                    "trhrj": {
+                      "content": "Sousedská Pomoc"
+                    },
+                    "NqOI0": {
+                      "content": "A civic initiative I launched in March 2020 as an immediate response to the COVID-19 crisis. It connected 6,000+ volunteers — couriers, caregivers, dispatchers and mask-sewers — with people who needed help locally, all across the Czech Republic. Within a week, towns and municipalities were using it to coordinate their own volunteers."
+                    },
+                    "x3NWR": {
+                      "enabled": false
+                    },
+                    "FyvLj": {
+                      "content": "sousedskapomoc.cz"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "B21Vj8",
+              "type": "ref",
+              "ref": "KRiWh",
+              "name": "Side Projects",
+              "width": "fill_container",
+              "descendants": {
+                "wRCNU": {
+                  "content": "COMMENTATOR · 7 YEARS ON CZECH TV"
+                },
+                "ahPy7": {
+                  "content": "ON AIR"
+                },
+                "trhrj": {
+                  "content": "Poker commentary"
+                },
+                "NqOI0": {
+                  "content": "My parallel life at the mic — seven years commentating poker for Czech Television, Czech streams of the European Poker Tour with PokerStars, and in 2026 back on Nova Sport covering tournaments from King's Casino, Rozvadov."
+                },
+                "x3NWR": {
+                  "enabled": false
+                },
+                "FyvLj": {
+                  "content": "See more"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bxOx0",
+          "name": "Contact",
+          "width": "fill_container",
+          "fill": "#241310FF",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            96,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "R4ram",
+              "name": "Eyebrow",
+              "fill": "$accent-secondary",
+              "content": "CONTACT",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "iKnnf",
+              "name": "Heading",
+              "fill": "#F5F2E9FF",
+              "textGrowth": "fixed-width",
+              "width": 680,
+              "content": "Building something, or want to talk marketplaces?",
+              "lineHeight": 1.12,
+              "textAlign": "center",
+              "fontFamily": "$font-heading",
+              "fontSize": 44,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "w6WiD",
+              "name": "Sub",
+              "fill": "#D8D1C2FF",
+              "textGrowth": "fixed-width",
+              "width": 520,
+              "content": "I'm always up for a good conversation about e-commerce, building companies, or a new idea. Reach out.",
+              "lineHeight": 1.55,
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "mJrWG",
+              "name": "Email Button",
+              "fill": "#EAE4D6FF",
+              "cornerRadius": 9999,
+              "gap": 9,
+              "padding": [
+                15,
+                30
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "Z1BTBl",
+                  "name": "Mail",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "mail",
+                  "library": "lucide",
+                  "fill": "#8C1622FF"
+                },
+                {
+                  "type": "text",
+                  "id": "FflbZ",
+                  "name": "Label",
+                  "fill": "#8C1622FF",
+                  "content": "lukas@hunka.cz",
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PRDQY",
+              "name": "Socials",
+              "gap": 28,
+              "padding": [
+                10,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kP6ok",
+                  "name": "LinkedIn",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "C30Nc",
+                      "name": "Icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "linkedin",
+                      "library": "lucide",
+                      "fill": "#D8D1C2FF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y9TBz",
+                      "name": "Label",
+                      "fill": "#D8D1C2FF",
+                      "content": "LinkedIn",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JKgMO",
+                  "name": "X / Twitter",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "qnDJL",
+                      "name": "Icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "twitter",
+                      "library": "lucide",
+                      "fill": "#D8D1C2FF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fmN2L",
+                      "name": "Label",
+                      "fill": "#D8D1C2FF",
+                      "content": "X / Twitter",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uRbWP",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "padding": [
+            28,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "QiNK6",
+              "name": "Copy",
+              "fill": "$fg-muted",
+              "content": "© 2026 Lukáš Huňka",
+              "fontFamily": "$font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "g2DUS",
+              "name": "Foot Nav",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fT3Bl",
+                  "name": "About",
+                  "fill": "$fg-muted",
+                  "content": "About",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "RvRTN",
+                  "name": "Projects",
+                  "fill": "$fg-muted",
+                  "content": "Projects",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "CW5EN",
+                  "name": "Contact",
+                  "fill": "$fg-muted",
+                  "content": "Contact",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "SXvq9",
+                  "name": "EN / CZ",
+                  "fill": "$fg-muted",
+                  "content": "EN / CZ",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "KRiWh",
+      "x": 920,
+      "y": -400,
+      "name": "Project Card",
+      "reusable": true,
+      "width": 520,
+      "fill": "$surface-secondary",
+      "cornerRadius": 8,
+      "stroke": "$border-subtle",
+      "strokeWidth": 1,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000010",
+        "offset": {
+          "x": 0,
+          "y": 6
+        },
+        "blur": 20
+      },
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 32,
+      "children": [
+        {
+          "type": "frame",
+          "id": "X2ChCY",
+          "name": "Card Top",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "wRCNU",
+              "name": "Meta",
+              "fill": "$fg-muted",
+              "content": "FOUNDER · 2020 — NOW",
+              "fontFamily": "$font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "AlR35",
+              "name": "Tag",
+              "fill": "#371A1CFF",
+              "cornerRadius": 9999,
+              "padding": [
+                5,
+                12
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ahPy7",
+                  "name": "Tag Text",
+                  "fill": "$accent-primary",
+                  "content": "ACTIVE",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "trhrj",
+          "name": "Title",
+          "fill": "$fg-primary",
+          "content": "Project name",
+          "fontFamily": "$font-heading",
+          "fontSize": 30,
+          "fontWeight": "600"
+        },
+        {
+          "type": "text",
+          "id": "NqOI0",
+          "name": "Desc",
+          "fill": "$fg-secondary",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "One or two lines describing the project and your role in it.",
+          "lineHeight": 1.6,
+          "fontFamily": "$font-body",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "x3NWR",
+          "name": "Link",
+          "gap": 7,
+          "padding": [
+            6,
+            0,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "FyvLj",
+              "name": "Link Text",
+              "fill": "$accent-primary",
+              "content": "Visit",
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon",
+              "id": "b3pas",
+              "name": "Arrow",
+              "width": 16,
+              "height": 16,
+              "icon": "arrow-up-right",
+              "library": "lucide",
+              "fill": "$accent-primary"
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "variables": {
+    "accent-primary": {
+      "type": "color",
+      "value": "#C81E2CFF"
+    },
+    "accent-secondary": {
+      "type": "color",
+      "value": "#D8323EFF"
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": "#342F25FF"
+    },
+    "fg-muted": {
+      "type": "color",
+      "value": "#8C857AFF"
+    },
+    "fg-primary": {
+      "type": "color",
+      "value": "#F2EEE4FF"
+    },
+    "fg-secondary": {
+      "type": "color",
+      "value": "#C2BBADFF"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Newsreader"
+    },
+    "font-mono": {
+      "type": "string",
+      "value": "Geist Mono"
+    },
+    "surface-primary": {
+      "type": "color",
+      "value": "#17150FFF"
+    },
+    "surface-secondary": {
+      "type": "color",
+      "value": "#211D15FF"
+    }
+  }
 }

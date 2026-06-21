@@ -35,7 +35,7 @@ export default async function Image({
         <div
           style={{
             display: "flex",
-            color: "#C6A862",
+            color: "#C81E2C",
             fontSize: 26,
             letterSpacing: 6,
           }}
@@ -49,7 +49,7 @@ export default async function Image({
           {sub}
         </div>
         <div
-          style={{ display: "flex", marginTop: 56, height: 6, width: 120, background: "#C6A862" }}
+          style={{ display: "flex", marginTop: 56, height: 6, width: 120, background: "#C81E2C" }}
         />
         <div
           style={{

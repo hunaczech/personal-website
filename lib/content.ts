@@ -41,9 +41,9 @@ const en: Content = {
   nav: { about: "About", projects: "Projects", contact: "Contact" },
   hero: {
     eyebrow: "Founder · Builder · Prague",
-    headline: "Hi, I'm Lukáš. I help European brands sell everywhere.",
+    headline: "Give me a messy problem. I'll build the way out.",
     subhead:
-      "I build companies and tools at the messy intersection of e-commerce, marketplaces and automation — most of all Omnicado, the platform connecting sellers to 800+ channels across Europe.",
+      "Twenty years spent turning tedious, manual work into software that runs itself — most of all Omnicado, putting European sellers on 800+ marketplaces.",
     ctaPrimary: "Get in touch",
     ctaSecondary: "See my work",
     photoAlt: "Portrait of Lukáš Huňka",
@@ -119,9 +119,9 @@ const cs: Content = {
   nav: { about: "O mně", projects: "Projekty", contact: "Kontakt" },
   hero: {
     eyebrow: "Zakladatel · Tvůrce · Praha",
-    headline: "Ahoj, jsem Lukáš. Pomáhám evropským značkám prodávat všude.",
+    headline: "Dej mi zamotaný problém. Cestu ven si postavím.",
     subhead:
-      "Stavím firmy a nástroje na pomezí e-commerce, marketplaců a automatizace — především Omnicado, platformu, která propojuje prodejce s 800+ kanály po celé Evropě.",
+      "Dvacet let měním otravnou ruční práci v software, který běží sám — především v Omnicadu, které dostává evropské prodejce na 800+ tržišť.",
     ctaPrimary: "Napište mi",
     ctaSecondary: "Moje práce",
     photoAlt: "Portrét Lukáše Huňky",

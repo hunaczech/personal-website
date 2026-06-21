@@ -34,6 +34,9 @@ export async function generateMetadata({
   const { lang } = await params;
   const isCs = lang === "cs";
   const title = "Lukáš Huňka";
+  const fullTitle = isCs
+    ? "Lukáš Huňka — tvůrce a zakladatel Omnicada"
+    : "Lukáš Huňka — Builder & founder of Omnicado";
   const description = isCs
     ? "Zakladatel a CEO Omnicada z Prahy. Stavím firmy a nástroje pro e-commerce a marketplacy."
     : "Prague-based founder and CEO of Omnicado. I build companies and tools for e-commerce and marketplaces.";
@@ -42,7 +45,7 @@ export async function generateMetadata({
     : ["Lukáš Huňka", "Lukas Hunka", "Omnicado", "e-commerce", "marketplace", "founder", "CEO", "Prague", "Rohlík", "Atoto"];
   return {
     metadataBase: new URL(SITE),
-    title: { default: title, template: `%s · ${title}` },
+    title: { default: fullTitle, template: `%s · ${title}` },
     description,
     keywords,
     applicationName: title,
@@ -66,14 +69,14 @@ export async function generateMetadata({
     },
     openGraph: {
       type: "website",
-      title,
+      title: fullTitle,
       description,
       url: `${SITE}/${lang}`,
       siteName: title,
       locale: isCs ? "cs_CZ" : "en_US",
       alternateLocale: isCs ? "en_US" : "cs_CZ",
     },
-    twitter: { card: "summary_large_image", title, description, creator: "@hunaczech" },
+    twitter: { card: "summary_large_image", title: fullTitle, description, creator: "@hunaczech" },
   };
 }
 
