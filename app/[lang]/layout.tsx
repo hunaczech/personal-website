@@ -37,13 +37,32 @@ export async function generateMetadata({
   const description = isCs
     ? "Zakladatel a CEO Omnicada z Prahy. Stavím firmy a nástroje pro e-commerce a marketplacy."
     : "Prague-based founder and CEO of Omnicado. I build companies and tools for e-commerce and marketplaces.";
+  const keywords = isCs
+    ? ["Lukáš Huňka", "Omnicado", "e-commerce", "marketplace", "zakladatel", "CEO", "Praha", "Rohlík", "Atoto", "poker komentátor"]
+    : ["Lukáš Huňka", "Lukas Hunka", "Omnicado", "e-commerce", "marketplace", "founder", "CEO", "Prague", "Rohlík", "Atoto"];
   return {
     metadataBase: new URL(SITE),
     title: { default: title, template: `%s · ${title}` },
     description,
+    keywords,
+    applicationName: title,
+    authors: [{ name: title, url: SITE }],
+    creator: title,
+    publisher: title,
+    category: "technology",
     alternates: {
       canonical: `/${lang}`,
-      languages: { en: "/en", cs: "/cs" },
+      languages: { en: "/en", cs: "/cs", "x-default": "/en" },
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
     openGraph: {
       type: "website",
@@ -52,9 +71,9 @@ export async function generateMetadata({
       url: `${SITE}/${lang}`,
       siteName: title,
       locale: isCs ? "cs_CZ" : "en_US",
-      images: [{ url: "/personal-photo.jpeg", width: 870, height: 1130, alt: title }],
+      alternateLocale: isCs ? "en_US" : "cs_CZ",
     },
-    twitter: { card: "summary", title, description, creator: "@hunaczech" },
+    twitter: { card: "summary_large_image", title, description, creator: "@hunaczech" },
   };
 }
 
@@ -73,13 +92,21 @@ export default async function LangLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Lukáš Huňka",
+    alternateName: "Lukas Hunka",
     jobTitle: "Co-founder & CEO, Omnicado",
+    description:
+      "Prague-based founder and builder working in e-commerce, marketplaces and automation.",
     url: SITE,
     image: `${SITE}/personal-photo.jpeg`,
-    email: "mailto:lukas@omnicado.com",
+    email: "mailto:lukas@hunka.cz",
+    knowsAbout: ["E-commerce", "Marketplaces", "Automation", "Product", "Startups"],
     address: { "@type": "PostalAddress", addressLocality: "Prague", addressCountry: "CZ" },
     worksFor: { "@type": "Organization", name: "Omnicado", url: "https://www.omnicado.com" },
-    sameAs: ["https://cz.linkedin.com/in/lukashunka", "https://x.com/hunaczech"],
+    sameAs: [
+      "https://cz.linkedin.com/in/lukashunka",
+      "https://x.com/hunaczech",
+      "https://www.omnicado.com",
+    ],
   };
 
   return (

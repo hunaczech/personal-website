@@ -11,3 +11,11 @@ next-env.d.ts
 .vercel
 /.remember
 /.playwright-mcp
+
+# PRIVATE — biographical interview & anything from our conversation. NEVER commit. Public repo.
+INTERVIEW-NOTES.md
+*interview*
+*INTERVIEW*
+*.private
+*.private.md
+/.private/

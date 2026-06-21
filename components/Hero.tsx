@@ -1,7 +1,6 @@
-import Image from "next/image";
 import type { Content } from "@/lib/content";
 import { ArrowUpRight } from "./icons";
-import photo from "@/personal-photo.jpeg";
+import HeroPhoto from "./HeroPhoto";
 
 export default function Hero({ t }: { t: Content }) {
   return (
@@ -30,14 +29,7 @@ export default function Hero({ t }: { t: Content }) {
           </div>
         </div>
         <div className="order-first md:order-last">
-          <Image
-            src={photo}
-            alt={t.hero.photoAlt}
-            priority
-            placeholder="blur"
-            sizes="(max-width: 768px) 100vw, 420px"
-            className="aspect-[4/5] w-full rounded-xl object-cover shadow-[0_18px_48px_rgba(0,0,0,0.12),0_2px_6px_rgba(0,0,0,0.04)]"
-          />
+          <HeroPhoto alt={t.hero.photoAlt} />
         </div>
       </div>
     </section>

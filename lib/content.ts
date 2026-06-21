@@ -57,9 +57,9 @@ const en: Content = {
       { value: "800+", label: "connected channels" },
     ],
     paragraphs: [
-      "I'm a Prague-based founder. In 2020 I started what became Omnicado — first as a nights-and-weekends project called ISimplySell, then as a real company helping Czech and European brands reach customers on marketplaces like Alza, Allegro, Kaufland and Amazon.",
-      "[PLACEHOLDER — your story: how you got into e-commerce, the turning points, what you were doing before, what you're proudest of. A few honest sentences land better than a polished résumé.]",
-      "[PLACEHOLDER — what drives you: the kind of problems you like, how you think about building, and a glimpse of the person behind the work — family, what you do when you're not shipping.]",
+      "I'm a builder from a small town in the Polabí lowlands — the kid who was always a step ahead and happiest taking things apart to see how they worked. I sold my first “products” to the neighbours at five, built my first online shop at sixteen, and taught myself to code mostly because I couldn't stand doing the same manual work twice.",
+      "That one instinct — take the tedious work and turn it into a system that lets other people do what they couldn't — has run through everything since. Before Omnicado I spent seven years commentating poker on Czech Television, then learned e-commerce the hard way: as CTO at Rohlík, building Košík, and as CEO of Atoto, which I grew from a few dozen orders a month to hundreds a day before it was acquired.",
+      "I've started things that thrived and things that fell apart, and I've learned more from the second kind. Somewhere along the way I stopped hunting for shortcuts and learned to simply do the work — to face problems instead of letting them rot. Now I'm building Omnicado to last, and chasing the freedom to keep building, back ideas worth backing, and one day do it all with a family beside me.",
     ],
   },
   projects: {
@@ -78,12 +78,11 @@ const en: Content = {
       },
       {
         name: "Atoto.cz",
-        meta: "[Role] · [years]",
-        tag: "[Status]",
+        meta: "CEO · 2017–2019",
+        tag: "Acquired",
         description:
-          "[PLACEHOLDER — what Atoto.cz is and what you did there. One or two lines.]",
-        linkLabel: "atoto.cz",
-        href: "https://atoto.cz",
+          "An online-grocery price comparison I took over as CEO and pivoted into a marketplace with delivery — scaling it from around 40 orders a month to 250 a day before it was acquired.",
+        linkLabel: "",
       },
       {
         name: "Sousedská Pomoc",
@@ -91,16 +90,15 @@ const en: Content = {
         tag: "Non-profit",
         description:
           "A civic initiative I launched in March 2020 as an immediate response to the COVID-19 crisis. It connected 6,000+ volunteers — couriers, caregivers, dispatchers and mask-sewers — with people who needed help locally, all across the Czech Republic. Within a week, towns and municipalities were using it to coordinate their own volunteers.",
-        linkLabel: "sousedskapomoc.cz",
-        href: "https://sousedskapomoc.cz",
+        linkLabel: "",
       },
       {
-        name: "Side projects & experiments",
-        meta: "Maker · ongoing",
-        tag: "Playground",
+        name: "Poker commentary",
+        meta: "Commentator · 7 years on Czech TV",
+        tag: "On air",
         description:
-          "[PLACEHOLDER — a sentence or two on the smaller things you tinker with: tools, AI experiments, prototypes. List the ones worth showing.]",
-        linkLabel: "See more",
+          "My parallel life at the mic — seven years commentating poker for Czech Television, Czech streams of the European Poker Tour with PokerStars, and in 2026 back on Nova Sport covering tournaments from King's Casino, Rozvadov.",
+        linkLabel: "",
       },
     ],
   },
@@ -108,7 +106,7 @@ const en: Content = {
     eyebrow: "Contact",
     heading: "Building something, or want to talk marketplaces?",
     sub: "I'm always up for a good conversation about e-commerce, building companies, or a new idea. Reach out.",
-    email: "lukas@omnicado.com",
+    email: "lukas@hunka.cz",
     socials: [
       { label: "LinkedIn", href: "https://cz.linkedin.com/in/lukashunka" },
       { label: "X / Twitter", href: "https://x.com/hunaczech" },
@@ -137,9 +135,9 @@ const cs: Content = {
       { value: "800+", label: "propojených kanálů" },
     ],
     paragraphs: [
-      "Jsem zakladatel z Prahy. V roce 2020 jsem rozjel to, z čeho se stalo Omnicado — nejdřív jako večerní projekt ISimplySell, pak jako skutečnou firmu, která pomáhá českým a evropským značkám prodávat na marketplacech jako Alza, Allegro, Kaufland nebo Amazon.",
-      "[PLACEHOLDER — tvůj příběh: jak ses dostal k e-commerce, zlomové momenty, co jsi dělal předtím a na co jsi nejvíc hrdý. Pár upřímných vět zabere víc než vyleštěné CV.]",
-      "[PLACEHOLDER — co tě žene dál: jaké problémy tě baví, jak přemýšlíš o stavění věcí, a kousek člověka za prací — rodina, co děláš, když zrovna nepracuješ.]",
+      "Jsem tvůrce z malého města v polabské nížině — ten kluk, co byl vždycky o krok napřed a nejradši rozebíral věci, aby viděl, jak fungují. První „produkty“ jsem prodával sousedům v pěti, první e-shop postavil v šestnácti a programovat se naučil hlavně proto, že nesnesl dělat tu samou ruční práci dvakrát.",
+      "Ten jediný instinkt — vzít otravnou práci a udělat z ní systém, který druhým umožní něco, co by sami nezvládli — se táhne vším, co dělám. Než vzniklo Omnicado, sedm let jsem komentoval poker pro Českou televizi a pak se naučil e-commerce tou těžší cestou: jako CTO v Rohlíku, stavbou Košíku a jako CEO Atota, které jsem vytáhl z pár desítek objednávek měsíčně na stovky denně, než ho koupili.",
+      "Rozjel jsem věci, co vzkvétaly, i věci, co se rozpadly — a z těch druhých jsem se naučil víc. Někde po cestě jsem přestal hledat zkratky a naučil se prostě makat — řešit problémy, místo abych je nechal vyhnít. Dneska stavím Omnicado tak, aby vydrželo, a jdu za svobodou dál tvořit, podporovat nápady, co za to stojí, a jednou to všechno dělat s rodinou po boku.",
     ],
   },
   projects: {
@@ -158,12 +156,11 @@ const cs: Content = {
       },
       {
         name: "Atoto.cz",
-        meta: "[Role] · [roky]",
-        tag: "[Stav]",
+        meta: "CEO · 2017–2019",
+        tag: "Akvizice",
         description:
-          "[PLACEHOLDER — co je Atoto.cz a co jsi tam dělal. Jedna až dvě věty.]",
-        linkLabel: "atoto.cz",
-        href: "https://atoto.cz",
+          "Porovnávač cen online potravin, který jsem převzal jako CEO a pivotoval do modelu marketplace s doručením — vyškáloval z nějakých 40 objednávek měsíčně na 250 denně, než ho koupili.",
+        linkLabel: "",
       },
       {
         name: "Sousedská Pomoc",
@@ -171,16 +168,15 @@ const cs: Content = {
         tag: "Nezisk",
         description:
           "Občanská iniciativa, kterou jsem spustil v březnu 2020 jako bezprostřední reakci na koronavirovou krizi. Propojila přes 6 000 dobrovolníků — kurýrů, pečovatelů, dispečerů i švadlen šijících roušky — s lidmi, kteří potřebovali pomoc na lokální úrovni po celé ČR. Během týdne ji obce a města využívaly ke koordinaci vlastních dobrovolníků.",
-        linkLabel: "sousedskapomoc.cz",
-        href: "https://sousedskapomoc.cz",
+        linkLabel: "",
       },
       {
-        name: "Vedlejší projekty & experimenty",
-        meta: "Tvůrce · průběžně",
-        tag: "Hřiště",
+        name: "Komentování pokeru",
+        meta: "Komentátor · 7 let v České televizi",
+        tag: "Ve vysílání",
         description:
-          "[PLACEHOLDER — věta nebo dvě o menších věcech, na kterých si hraješ: nástroje, AI experimenty, prototypy. Vyjmenuj ty, které stojí za ukázku.]",
-        linkLabel: "Více",
+          "Můj paralelní život u mikrofonu — sedm let komentování pokeru pro Českou televizi, české streamy European Poker Tour s PokerStars, a v roce 2026 zpátky na Nova Sport se sestřihy turnajů z King's Casina v Rozvadově.",
+        linkLabel: "",
       },
     ],
   },
@@ -188,7 +184,7 @@ const cs: Content = {
     eyebrow: "Kontakt",
     heading: "Stavíš něco, nebo si chceš popovídat o marketplacech?",
     sub: "Vždycky rád probírám e-commerce, stavění firem nebo nový nápad. Ozvi se.",
-    email: "lukas@omnicado.com",
+    email: "lukas@hunka.cz",
     socials: [
       { label: "LinkedIn", href: "https://cz.linkedin.com/in/lukashunka" },
       { label: "X / Twitter", href: "https://x.com/hunaczech" },

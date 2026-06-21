@@ -3,10 +3,10 @@ import { ArrowUpRight } from "./icons";
 
 function Card({ p, featured }: { p: Project; featured?: boolean }) {
   const inner = (
-    <div className="flex h-full flex-col gap-4 rounded-lg border border-border-subtle bg-surface p-8 shadow-[0_6px_20px_rgba(0,0,0,0.06)] transition-shadow hover:shadow-[0_10px_30px_rgba(0,0,0,0.1)]">
+    <div className="flex h-full flex-col gap-4 rounded-lg border border-border-subtle bg-surface-2 p-8 shadow-[0_6px_20px_rgba(0,0,0,0.25)] transition-shadow hover:shadow-[0_10px_30px_rgba(0,0,0,0.35)]">
       <div className="flex items-center justify-between gap-4">
         <span className="eyebrow text-xs text-fg-muted">{p.meta}</span>
-        <span className="eyebrow rounded-full bg-surface-2 px-3 py-1 text-[11px] font-semibold text-accent">
+        <span className="eyebrow rounded-full bg-card px-3 py-1 text-[11px] font-semibold text-accent">
           {p.tag}
         </span>
       </div>
@@ -14,10 +14,12 @@ function Card({ p, featured }: { p: Project; featured?: boolean }) {
         {p.name}
       </h3>
       <p className="text-base leading-relaxed text-fg-2">{p.description}</p>
-      <span className="mt-auto inline-flex items-center gap-1.5 pt-2 text-sm font-semibold text-accent">
-        {p.linkLabel}
-        <ArrowUpRight className="h-4 w-4" />
-      </span>
+      {p.linkLabel && (
+        <span className="mt-auto inline-flex items-center gap-1.5 pt-2 text-sm font-semibold text-accent">
+          {p.linkLabel}
+          <ArrowUpRight className="h-4 w-4" />
+        </span>
+      )}
     </div>
   );
 

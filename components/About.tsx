@@ -13,7 +13,7 @@ export default function About({ t }: { t: Content }) {
             {t.about.stats.map((s) => (
               <div key={s.label} className="flex flex-col gap-0.5">
                 <dt className="sr-only">{s.label}</dt>
-                <dd className="font-heading text-3xl font-semibold text-accent-deep">{s.value}</dd>
+                <dd className="font-heading text-3xl font-semibold text-accent">{s.value}</dd>
                 <span className="eyebrow text-xs text-fg-muted">{s.label}</span>
               </div>
             ))}

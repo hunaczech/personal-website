@@ -1,16 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  /* Heritage Warmth palette */
-  --color-surface: #f5f2e9;
-  --color-surface-2: #e8e4d8;
-  --color-fg: #2d2926;
-  --color-fg-2: #5e5954;
-  --color-fg-muted: #8c8782;
-  --color-border-subtle: #dcd8cb;
-  --color-accent: #7d6b3d;
-  --color-accent-deep: #4a3f24;
+  /* Heritage Warmth — dark */
+  --color-surface: #17150f;
+  --color-surface-2: #211d15;
+  --color-fg: #f2eee4;
+  --color-fg-2: #c2bbad;
+  --color-fg-muted: #8c857a;
+  --color-border-subtle: #342f25;
+  --color-accent: #c6a862;
+  --color-accent-deep: #241e13;
   --color-accent-soft: #c9b98a;
+  --color-card: #2e2a1e;
 
   /* Type — bound to next/font CSS variables */
   --font-heading: var(--font-newsreader), Georgia, serif;
@@ -20,6 +21,7 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 body {

@@ -1,0 +1,28 @@
+# Lukáš Huňka
+
+> Prague-based founder and builder working at the intersection of e-commerce, marketplaces and automation. Co-founder & CEO of Omnicado. Former CTO at Rohlík, CEO of Atoto, and a poker commentator for Czech Television.
+
+This site (https://hunka.cz) is the personal homepage of Lukáš Huňka. It is bilingual (English at /en, Czech at /cs).
+
+## About
+
+Lukáš grew up in a small town in the Polabí lowlands, taught himself to code as a teenager, and has been building software-driven businesses ever since. His through-line: take tedious manual work and turn it into a system that lets other people do what they couldn't. Not money-driven — driven by solving problems and the freedom to keep building.
+
+## Projects
+
+- [Omnicado](https://www.omnicado.com): Flagship. An omnichannel platform connecting online sellers to 800+ marketplaces and channels (Alza, Allegro, Kaufland, Amazon and more) — listings, pricing, stock and orders in one place. 250+ clients; official integrator for major CEE marketplaces. Co-founder & CEO since 2020 (originally ISimplySell).
+- Atoto.cz: Online-grocery price comparison he took over as CEO and pivoted into a marketplace with delivery, scaling it from ~40 orders/month to 250/day before acquisition (2017–2019).
+- [Sousedská Pomoc](https://sousedskapomoc.cz): A civic initiative he launched in March 2020 in response to COVID-19; connected 6,000+ volunteers with people who needed help across the Czech Republic. One of the country's largest volunteer organizations.
+- Poker commentary: Seven years commentating poker for Czech Television, Czech streams of the European Poker Tour with PokerStars, and in 2026 covering tournaments from King's Casino (Rozvadov) for Nova Sport.
+
+## Contact
+
+- Email: lukas@hunka.cz
+- LinkedIn: https://cz.linkedin.com/in/lukashunka
+- X / Twitter: https://x.com/hunaczech
+- Company: https://www.omnicado.com
+
+## Machine-readable
+
+- JSON profile: https://hunka.cz/api/profile
+- Sitemap: https://hunka.cz/sitemap.xml
